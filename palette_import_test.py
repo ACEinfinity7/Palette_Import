@@ -7,6 +7,9 @@ palette_filename = 'CHROMA.MAP.csv'
 
 palette_dict = read_palette_from_file(my_dir + '/' + palette_filename)
 
+
+
+#print(palette_dict)
 print('results of the dictionary read')
 print(f'{palette_dict[0]}')
 print(f'{palette_dict[1]}')
